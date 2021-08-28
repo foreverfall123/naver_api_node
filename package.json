@@ -1,0 +1,19 @@
+{
+  "name": "naver_api",
+  "version": "1.0.0",
+  "description": "네이버 api 테스트",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foreverfall123/naver_api_node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/foreverfall123/naver_api_node/issues"
+  },
+  "homepage": "https://github.com/foreverfall123/naver_api_node#readme"
+}
