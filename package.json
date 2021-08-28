@@ -1,19 +1,16 @@
 {
-  "name": "naver_api",
-  "version": "1.0.0",
-  "description": "네이버 api 테스트",
-  "main": "index.js",
+  "name": "naver-api",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/foreverfall123/naver_api_node.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/foreverfall123/naver_api_node/issues"
-  },
-  "homepage": "https://github.com/foreverfall123/naver_api_node#readme"
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "pug": "2.0.0-beta11"
+  }
 }
